@@ -2,6 +2,17 @@ body {
   margin: 0;
 }
 
-img {
+.content img {
   width: 100%;
+}
+
+.buttons {
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+}
+
+.play {
+  cursor: pointer;
 }
