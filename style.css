@@ -16,3 +16,7 @@ body {
 .play {
   cursor: pointer;
 }
+
+.footer img {
+  max-height: 200px;
+}
