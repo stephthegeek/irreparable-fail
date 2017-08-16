@@ -8,8 +8,18 @@
   <link href="favicon.ico" rel="icon" type="image/x-icon" />
   <link href="style.css" rel="stylesheet">
   <script src="player/wimpy.js" type="text/javascript"></script>
+  <script language="JavaScript">
+    <!-- Begin
+    var scrl = " IRREPARABLE FAILURE!!! ";
+    function scrlsts() {
+     scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
+     document.title = scrl;
+     setTimeout("scrlsts()", 300);
+     }
+    //  End -->
+  </script>
 </head>
-<body>
+<body onLoad="scrlsts()">
   <div class="buttons">
     <p class="play" onclick="wimpyButton.play('player/if-1.mp3')"><img src="images/btn-1.png" /></p>
     <p class="play" onclick="wimpyButton.play('player/if-2.mp3')"><img src="images/btn-2.png" /></p>
