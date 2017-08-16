@@ -9,7 +9,7 @@ body {
 .buttons {
   left: 0;
   padding: 10px;
-  position: absolute;
+  position: fixed;
   top: 0;
 }
 
